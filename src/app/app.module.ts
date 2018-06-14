@@ -10,6 +10,8 @@ import { CarListComponent } from './car-list/car-list.component';
 import { MatButtonModule, MatCardModule, MatInputModule, MatListModule, MatToolbarModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { GiphyService } from './shared/giphy/giphy.service';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +31,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatToolbarModule
 
   ],
-  providers: [CarService],
+  providers: [CarService,GiphyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
