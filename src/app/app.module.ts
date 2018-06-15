@@ -13,7 +13,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GiphyService } from './shared/giphy/giphy.service';
 import { CarEditComponent } from './car-edit/car-edit.component';
 
-import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
